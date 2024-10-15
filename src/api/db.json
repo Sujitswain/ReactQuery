@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptsample",
+      "description": "A high-performance laptop suitable for all your needs.",
+      "price": 999.99,
+      "quantity": 10,
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "description": "A latest model smartphone with all the features.",
+      "price": 699.99,
+      "quantity": "12",
+      "inStock": false
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "description": "Noise-canceling over-ear headphones.",
+      "price": 199.99,
+      "quantity": 10,
+      "inStock": true
+    }
+  ]
+}
