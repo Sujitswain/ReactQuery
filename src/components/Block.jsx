@@ -25,7 +25,7 @@ const Block = ({ heading, content }) => {
       <h2>{heading}</h2>
       <h3 onClick={() => handleClick(content)}>
         {content}
-        <span style={{fontSize: "13px", marginLeft: "15px"}}>click to copy</span>
+        <span style={{fontSize: "13px", marginLeft: "15px"}}>{copy ? "copied!" : "click to copy"}</span>
       </h3>
       {copy && <Notification message="Copied!" />}
     </div>
